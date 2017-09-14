@@ -11,3 +11,5 @@ def input_to_index(user_input)
     input = user_input.to_i;
     input = input - 1;
 end
+
+# code your move and move method here!
