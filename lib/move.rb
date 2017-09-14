@@ -15,7 +15,6 @@ end
 
 # code your move and move method here!
 def move(board,input,char = "X")
-    input = input_to_index(input)
     board[input] = char
     return board
 end
